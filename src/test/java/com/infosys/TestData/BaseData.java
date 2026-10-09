@@ -105,6 +105,16 @@ public class BaseData {
 		
 		wait.until(ExpectedConditions.elementToBeClickable(By.id("tag")));
 	}
+	public void waittill1() {
+		WebDriverWait wait=new WebDriverWait(driver,Duration.ofSeconds(5));
+		
+		wait.until(ExpectedConditions.elementToBeClickable(By.id("tag")));
+	}
+	public void waittill3() {
+		WebDriverWait wait=new WebDriverWait(driver,Duration.ofSeconds(5));
+		
+		wait.until(ExpectedConditions.elementToBeClickable(By.id("tag")));
+	}
 
 		
 		
